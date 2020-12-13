@@ -32,7 +32,7 @@ function preload()
 function setup() 
 {
 	//creates canvas
-	createCanvas(displayWidth, displayHeight);
+	createCanvas(displayHeight, displayWidth);
 	//sets up matter.js
 	engine = Engine.create();
 	world = engine.world;
